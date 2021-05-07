@@ -1,0 +1,78 @@
+  Accessing files: In this includes the details of file permission and access modes.
+                    Every file in Unix has following attributes.
+
+  A)Owner permissions− The owner's permissions determine what actions the owner of the 
+                       file can perform on the file.
+  
+  B)Group permissions −The group's permissions determine what actions a user, who is
+                       a member of the group that a file belongs to, can perform on the file.
+
+  C)Other permissions − The permissions for others indicate what action all other users can 
+                        perform on the file.
+Permission indicators are:
+                        While using ls -l command, it displays various information related to
+                        file permission as follows −
+                        ls -l 
+                        -rwxr-xr--  1  
+                        drwxr-xr--- 1  
+   The permissions are of three types: 
+                  read having (4) permission write having (2) permission,
+                  execute having (1) permission.
+
+                  The first group of three characters:
+                  e.g. -rwxr-xr-- represents that the owner has read (r), write (w) and execute (x) permission.
+
+                  The second group of three characters:
+                  e.g. -rwxr-xr-- represents that the group has read (r) and execute (x) permission,
+                  but no write permission.
+
+                  The last group of three characters:
+                  e.g. -rwxr-xr-- represents that there is read (r) only permission.
+   File access modes:
+                  The basic building blocks of Unix permissions are the 
+                  read, write, and execute are given below-
+
+              Read:
+                 It view the contents of the file.
+
+             Write:
+                 To modify, or remove the content of the file.
+
+             Execute:
+                 User with execute permissions can run a file as a program.
+    
+             User with execute permissions can run a file as a program.
+             Directory Access Modes
+
+ 	          No permission 	---
+        	1)Execute permission 	--x
+	        2)Write permission 	-w-
+	        3)Execute and write permission: 1 (execute) + 2 (write) = 3 	-wx
+	        4)Read permission 	r--
+	        5)Read and execute permission: 4 (read) + 1 (execute) = 5 	r-x
+	        6)Read and write permission: 4 (read) + 2 (write) = 6 	rw-
+	        7)All permissions: 4 (read) + 2 (write) + 1 (execute) = 7 	rwx
+
+       Changing Owners and Groups:
+           While creating an account on Unix, it assigns a owner ID and 
+           a group ID to each user. All the permissions mentioned above 
+           are also assigned based on the Owner and the Groups.
+
+          Two commands are available to change the owner and the group of files −
+           chown command:
+           chown − The chown command stands for "change owner" and is used to 
+           change the owner of a file.
+
+           chown command to change owner and group assignments,the sytax is:
+           chown owner:group filename
+           So to change the owner of the file to user and group to family you enter
+           chown user:family file.
+
+           chmod command:
+           chmod command allows you to change the permissions on a file using either a symbolic or a numeric mode.
+           Syntax:
+           chmode g=r filename.
+
+
+
+
