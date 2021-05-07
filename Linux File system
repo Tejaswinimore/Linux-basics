@@ -1,0 +1,40 @@
+  Some basic commands of linux:
+  1)Pwd:  pwd stands for print working directory.
+          It prints the working directory.
+  2)mkdir:Mkdir stands for make directory.
+          Make directory makes new folder in your current directory.
+  3)head: Head command reads the first few lines of the text.
+          Or it gives the information of top lines.
+  4)cd:   Cd command stands for change directory.
+          It is used to change the current directory.
+  5)cp:   Cp stands for copy directory.
+          You can copy the another directory with its content.
+  6)tail: Tail shows the last lines of the file.
+  7)ls:   ls stands for list.ls is a basic command used to list files and direcotries.
+  8)cp ~r:This command copy all files recursively.
+  9)ping: It is used to check the network connection or working of server.
+  10)cat: Cat command copy content of one another.
+          It creats single or multiple files.
+  11)mv:  mv stands for move.It rename the file.
+  12)uname:It checks the current version of operating system.
+  13)touch:It is used to create the file or modify the file.
+  14)rm:   rm stands for remove.It remove the file.
+  15)top:  top command display the activity of processor.
+  16)df:   df stands for disk filesystem.It display information related to file.
+  17)rm ~r:It remove the files recursively.
+  18)man:  It providez details of command includes name, values etc.
+  19)chmod:It is used to change the access mode of the of a file.
+  20)vi:   vi is a text editor.
+  21)echo: It inserts text in the given file.
+
+Directories and its types-
+   1)bin -  This runs applications and programs.
+   2)boot -  This boot files present which helps to start device.
+   3)media - External storage will be mounted when plugged in.
+   4)mnt - In this , we maunally mount storage.
+   5)root- It isHome directory of the Administrator .
+   6)usr - It has unique system resources 
+   7)var - It is used to store data that changes frequently. 
+    
+     
+     
