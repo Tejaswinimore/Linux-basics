@@ -1,0 +1,47 @@
+  Users and groups:
+          Groups:
+                Agroup is a collection of users. 
+                The main purpose of the groups is to 
+                define a set of privileges like read, write, or 
+                execute permission for a given resource that can be shared 
+                among the users within the group. Users can be added to an existing
+                group to utilize the privileges it grants.
+   Primary group:
+                 Is the group that is assigned to the files that are
+                 created by the user. Usually, the name of the primary 
+                 group is the same as the name of the user. 
+                 Each user must belong to exactly one primary group.
+  Secondary group:
+                 A groups are stored in the /etc/group file.
+	         A user can belong to zero or more secondary groups.
+
+           User:
+                 Users are accounts ,used to login into a system
+                 Each user identified with unique identification number.
+                 The information of users in a system are stored in /etc/passwd file. 
+                 The hashed passwords for users are stored in /etc/shadow file.
+          
+		chage [options] LOGIN
+           sudo user:
+                The sudo command allows you to run programs with the security privileges of 
+                another user (by default, as the superuser). 
+             
+
+    Oprations performs by using following commands:
+	1)whoami :  To display the username of the current use.
+	2)su :      To switch user
+	3)useradd : Add a user to the system.
+	4)userdel : Delete a user account and related files.
+	5)groupadd :Add a group to the system.
+	6)delgroup :Remove a group from the system.
+	7)groupdel -To delete group
+	8)usermod : Modify a user account.	
+        9)usermod - To append user to the secondary group.
+	10)cat /etc/passwd : To check addition of the user 
+  	11)passwd  : To assign the password to user  
+	12)id : To get data about user and its group 
+	13)chage : change user password expiry information.
+	14)sudo: run one or more commands as another user typically with superuser permissions.
+
+
+
